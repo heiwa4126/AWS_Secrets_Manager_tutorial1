@@ -1,4 +1,4 @@
-# AWS Secrets Manager メモ
+# AWS Secrets Manager メモ part 1/2
 
 Twitter APIのキー4つをlambdaに埋め込まない、
 という件で調査したときのサンプルコード。
