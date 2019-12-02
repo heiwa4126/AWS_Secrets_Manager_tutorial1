@@ -25,11 +25,12 @@ tutorials/MyFirstTutorialSecret
 
 
 「確認」のところで出るサンプルコード(自分の使いそうなやつだけ)はexampleフォルダにコピーした。
-- Python3
-- Node.js
-- GoLang
+- [Python3](/examples/ex.py)
+- [Node.js](/examples/ex.js)
+- [GoLang](/examples/ex.go)
 
-あと[チュートリアル : シークレットの保存と取得 - AWS Secrets Manager](https://docs.aws.amazon.com/ja_jp/secretsmanager/latest/userguide/tutorials_basic.html)にあるシェル
+あと[チュートリアル : シークレットの保存と取得 - AWS Secrets Manager](https://docs.aws.amazon.com/ja_jp/secretsmanager/latest/userguide/tutorials_basic.html)
+にあるシェル
 
 ```sh
 aws secretsmanager describe-secret --secret-id tutorials/MyFirstTutorialSecret
@@ -37,7 +38,7 @@ aws secretsmanager get-secret-value --secret-id tutorials/MyFirstTutorialSecret 
 ```
 
 これらのうちからPython3版をちょびっと改造したのが
-ex1.py
+[ex1.py](/ex1.py) 
 
 
 
